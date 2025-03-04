@@ -8,12 +8,16 @@
 /* Target header items using nth-of-type pseudo-classes */
 .header-item:nth-of-type(1) {
     /* Style for the first item (could be the first button, image, or text) */
-    background-color: lightblue;  /* Example: Background color */
+    button: white;  /* Example: Background color */
 }
-
+/* Target header items using nth-of-type pseudo-classes */
+.header-item:nth-of-type(2) {
+    /* Style for the first item (could be the first button, image, or text) */
+    button: white;  /* Example: Background color */
+}
 
 .header-item:nth-of-type(2) {
     /* Style for the second item */
-    background-color: lightgreen;  /* Example: Background color */
+    background-color: black;  /* Example: Background color */
 }
 
