@@ -1,37 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
-    <title>Wildfire Safety</title> <!-- the content here will only show in the tab and in the metadata about the page -->
+    <title>Wildfire Prevention</title>
     <link rel="icon" href="https://tse3.mm.bing.net/th?id=OIP.h3T-WE12yOZODdAQbV27SAHaJ4&pid=Api&P=0&h=220">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link href="reset.css" rel="stylesheet" type="text/css" />
-    <link href="style.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="style.css"> 
+    <style>
+        .navbar {
+            background-color: #8a0000;
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 10px 0;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .navbar ul li {
+            margin: 0 15px;
+        }
+        .navbar ul li a {
+            display: block;
+            color: #fffeb2;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .navbar ul li a:hover {
+            background-color: #b94512;
+        }
+        .navbar ul li button {
+            background-color: #e16d3a;
+            border: none;
+            color: #fffeb2;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .navbar ul li button:hover {
+            background-color: #e68900;
+        }
+        body {
+            padding-top: 50px;
+            background-color: #ffe4ce; 
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css"> 
 </head>
 
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#about-topic">About</a></li>
+            <li><a href="#recent-news">News</a></li>
+            <li><a href="#id-3">Link 3</a></li>
+            <li><a href="#id-4">Link 4</a></li>
+            <li><button id="theme-button">Toggle Theme</button></li>
+        </ul>
+    </nav>
 
 <body>
-
-
     <!--- Headings --->
     <img  /> <!-- if you want to add an image, use this tag and link to the actual image location in your project with the src attribute -->
-    <h1>My Activism Project: Topic</h1>
-    <h3>Short description about topic</h3>
-    <button type="button">oooh this is a button</button>
-    <button type="button">another button!</button>
+    <h1>Blaze Safe</h1>
+    <h3>Prevent, Protect, Prepare.</h3>
 
 
+    <!-- Navbar -->
+    <!-- Header Section -->
+    
+    <header class="header-container">
+        <img src="converted_image.png" alt="Header Image" class="header-item" />
+        <h1 class="header-item">Blaze Safe: Wildfire Protection</h1>
+        <h1>Blaze Safe</h1>
+        <h3 class="header-item">Prevent, Protect, Prepare.</h3> 
+        <button class="header-item" type="button">oooh this is a button</button> 
+        <button class="header-item" type="button">another button!</button> 
+
+    </header>
+</body>
     <!--- About --->
-    <h2>About My Topic</h2>
-    <p>What is the problem my topic covers? Why is it a problem?
-    </p>
+    <h2 id ="#about-topic">About My Topic</h2>
 
+    <p>Wildfires are widespread, unplanned, and uncontrolled fires that burn large amounts of vegetation and ecosystems.
+    </p>
+    <p>This causes significant damage to natural habitats, and property and contributes to climate change by releasing large amounts of carbon emissions (especially carbon dioxide), harming human health and contaminating water supply.
+    </p>
+    <p>By taking certain precautions, we can protect our communities and natural resources from life-threatening wildfires. 
+    </p>
 
     <!--- Data --->
     <h3>Data about my topic</h3>
+    <button type="button">U.S. Wildfire Data</button>
+    </p>
     <img src="" />
     <iframe src="https://www.youtube.com/watch?v=4oJ0j1OZSTU"></iframe> 
     <h4>Add some charts + captions that illustrate my topic and why it is a problem </h4>
@@ -49,37 +123,91 @@
     <button type="button">Resources for Those Affected by Wildfires</button>
 
 
-    <img src="" />
+    <img src="img/converted_image.png" />
     <h3>Where can this problem have lasting effects?</h3>
-    <p>Why?
+    <p>Areas with a lot of vegetation are at major risk when it comes to wildfires. It can disrupt natural habitats, deplete food resources for the animals living in those ecosystems, and have long-term effects such as reduced tree regeneration. To prevent wildfires from ruining ecosystems, there should be measures taken to manage the components that cause wildfires:
+    </p>
+    <ul>
+        <li>Remove dead vegetation. </li>
+        <li>Cut vegetation low. </li>
+    </ul> 
+    <p>
+        This can manage the fuel that causes wildfires to spread quickly.
     </p>
 
 
     <img src="" />
     <h3>Where else can this problem have lasting effects?</h3>
-    <p>Why?
+    <p>Urban areas surrounded by shrublands and other dry vegetation are greatly affected and are prone to the spread of wildfires, as they can damage property and vegetation that people rely on for food. To prevent the spread of wildfires in these areas:
     </p>
-
+    <ul>
+        <li>Educate people about fire safety (making an emergency fire plan).</li>
+        <li>Having underground power lines to prevent ignition.</li>
+    </ul> 
+    <p>
+        These steps will ensure the reduction of the rate at which wildfires are created and spread.  
+    </p>
 
     <img src="" />
     <h3>Where else else can this problem have lasting effects?</h3>
-    <p>Why?
+    <p>Large bodies of water, such as streams and rivers, which are located near wildfires can have lasting effects of poor water quality due to the drifted ash and pollution entering these areas. To stop the contamination of water during a wildfire:
+    </p>
+    <ul>
+        <li>Limit the use of plastic materials for infrastructure. </li>
+        <li>Use backflow prevention to prevent contaminated water from entering pure water. </li>
+    </ul> 
+    <p>
+        These measures minimize the negative impact of fire damage. 
     </p>
 
-
     <!--- News --->
-    <h2>Recent News</h2>
+    <h2 id ="#recent-news">Recent News</h2>
     <button type="button">Articles about Wildfires Today</button>
 
 
     <a class=""
-        href="">
+        href="https://enviroliteracy.org/how-can-we-stop-wildfires/?utm_">
+
         <article>
-            <h3></h3>
-            <p></p>
+            <h3>How Can We Stop Wildfires?</h3>
+            <p>Discusses strategies for wildfire prevention, including controlled grazing, forest management, and public education on reducing fire risks.</p>
         </article>
     </a>
 
+    <a class=""
+        href="https://news.stanford.edu/stories/2021/03/wildfire-solutions">
+        <article>
+            <h3>Stanford researchers explore how shifts in federal approaches can turn the tide of destructive wildfires</h3>
+            <p>Discusses innovative wildfire solutions developed by Stanford researchers, focusing on predictive modeling, early detection technologies, and improved land management strategies to mitigate wildfire risks and impacts.</p>
+        </article>
+    </a>
+
+    <a class=""
+        href="https://news.stanford.edu/stories/2021/03/wildfire-solutions">
+        <article>
+            <h3>Stanford researchers explore how shifts in federal approaches can turn the tide of destructive wildfires</h3>
+            <p>Discusses key strategies to prevent wildfires, including early detection, improved forest management, and fire-resistant infrastructure.</p>
+        </article>
+    </a>
+    
+
+    
+
+    <a class=""
+        href="https://news.stanford.edu/stories/2021/03/wildfire-solutions">
+        <article>
+            <h3>Stanford researchers explore how shifts in federal approaches can turn the tide of destructive wildfires</h3>
+            <p>Discusses innovative wildfire solutions developed by Stanford researchers, focusing on predictive modeling, early detection technologies, and improved land management strategies to mitigate wildfire risks and impacts.</p>
+        </article>
+    </a>
+
+    <a class=""
+        href="https://news.stanford.edu/stories/2021/03/wildfire-solutions">
+        <article>
+            <h3>Stanford researchers explore how shifts in federal approaches can turn the tide of destructive wildfires</h3>
+            <p>Discusses key strategies to prevent wildfires, including early detection, improved forest management, and fire-resistant infrastructure.</p>
+        </article>
+    </a>
 
 </body>
 
