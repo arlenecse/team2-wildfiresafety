@@ -16,14 +16,14 @@ body {
 
     /* Add a background color or image */
 
-    background-color: var(--bg-color); /* see bottom of file for color variables */
+    background-color: #f0f0f0; /* see bottom of file for color variables */
 
 
     /* Customize the default size, color, and font for text*/
 
     font-size: 16px;
 
-    color: var(--text-color);
+    color: #d2cff5;
 
     font-family: Tahoma, sans-serif; /* This tells the browser: "Try to use `Tahoma`, and if you can't find it, use any sans-serif font." */
 
@@ -44,10 +44,15 @@ body {
     paragraphs (p), links (a), and buttons
 
 ***/
-
+h1, h2, h3, h4, p{
+  font-family: Arial, sans-serif;
+}
 
 h1 {
 
+  font-size: 32px; 
+  color: #000; 
+  background-color: #888;
    
 
 }
@@ -55,40 +60,58 @@ h1 {
 
 h2 {
 
-   
+   font-size: 28px; 
+   color: #444; 
+   text-align: center;
 
 }
 
 
 h3 {
 
-   
+   font-size: 24px; 
+   color: #666;
 
 }
 
 
 h4 {
 
-   
+   font-size: 20px;
+   color: #888;
 
 }
 
 
 p {
 
-   
+   font-size: 16px; 
+   line-height: 1.5; 
+   color: #333; 
 
 }
 
 
-a,
+a:link {
+  color: blue; 
+  text-decoration: none;
+}
 
-a * {
-
-   
+a:visited {
+  color: purple; 
+  text-decoration: none;  
 
 }
 
+a:hover{
+  color: red; 
+  text-decoration: underline;
+}
+
+a:active{
+  color: orange; 
+  text-decoration: underline;
+}
 
 button {
 
