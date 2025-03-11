@@ -304,10 +304,9 @@ button:hover {
 
 /* Default dark mode style */
 .dark-mode {
-    background-color: black;
+    background-color: #231942;
     color: white;
 }
-
 
 /* Example: Different dark mode style for h1 */
 .dark-mode h1, 
@@ -325,4 +324,5 @@ button:hover {
 
 /* Add style to button */
 #theme-button {
+    color: #684fb5
 }
