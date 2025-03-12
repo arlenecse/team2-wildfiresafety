@@ -7,57 +7,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link href="reset.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="style.css"> 
-    <style>
-        .navbar {
-            background-color: #8a0000;
-            overflow: hidden;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            padding: 10px 0;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-        }
-        .navbar ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-        }
-        .navbar ul li {
-            margin: 0 15px;
-        }
-        .navbar ul li a {
-            display: block;
-            color: #fffeb2;
-            text-decoration: none;
-            padding: 10px 15px;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-        .navbar ul li a:hover {
-            background-color: #b94512;
-        }
-        .navbar ul li button {
-            background-color: #e16d3a;
-            border: none;
-            color: #fffeb2;
-            padding: 10px 15px;
-            cursor: pointer;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-        .navbar ul li button:hover {
-            background-color: #e68900;
-        }
-        body {
-            padding-top: 50px;
-            background-color: #ffe4ce; 
-        }
-    </style>
-    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="style.css">  
 </head>
 
 <body>
@@ -72,7 +22,6 @@
         </ul>
     </nav>
 
-<body>
     <!--- Headings --->
     <img  /> <!-- if you want to add an image, use this tag and link to the actual image location in your project with the src attribute -->
     <h1>Blaze Safe</h1>
@@ -91,7 +40,6 @@
         <button class="header-item" type="button">another button!</button> 
 
     </header>
-</body>
     <!--- About --->
     <h2 id ="about">About My Topic</h2>
 
@@ -201,7 +149,56 @@
     </a>
 
     <script src="index.js"></script>
-</body>
 
+<!-- CONNECT WITH US FORM -->
+<div id="connect">
+    <h2>Connect with Us</h2>
+    <div class="connect-container">
+        <div class="connect-para">
+            <p>Want to hear from us? Fill out the form below to share your name and email!</p>
+        </div>
+        <div class="connect-participants">
+            <p>🎟️ DJ from Texas has connected.</p>
+            <p>🎟️ Amy from New York has connected.</p>
+            <p>🎟️ Teresa from Montana has connected.</p>
+        </div>
+    </div>
+
+    <!-- Connect Form -->
+    <div class="form-container">
+        <form
+            id="connect-form"
+            title="connect-form"
+            action="https://formspree.io/f/yourFormID"
+            method="POST"
+        >
+
+            <!-- Name Input -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+
+            <!-- Email Input -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <!-- Location Input -->
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" placeholder="Your State or Country" required>
+
+            <!-- Formspree note -->
+            <p style="font-size: 0.9em; color: gray;">
+                To actually collect responses, connect your form with
+                <a href="https://formspree.io/" target="_blank">Formspree</a>.
+            </p>
+
+
+            <!-- Submit button -->
+            <button id="connect-button" type="submit">Submit</button>
+        </form>
+    </div>      
+</div>
+
+<body>
 
 </html>
