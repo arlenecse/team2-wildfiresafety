@@ -1,16 +1,16 @@
 # team2-wildfiresafety 
 
 ## Project Description
-The purpose of our project is to provide resources for those affected by recent wildfires by directing them to the websites and supplying information on how to stay safe. Some key features of this website are that it is easily navigable and provides a clean list of all the resources and important information on one page. This website was designed to help those affected by wildfires find safety information and resources.
+The purpose of our project is to provide resources for those affected by recent wildfires by directing them to the websites and supplying information on how to stay safe. Some key features of this website are that it is easily navigable and provides a clean list of all the resources and important information on one page. This website was designed to help those affected by wildfires find safety information and resources they urgently need.
 
 ### Deploy Link
 Try out the website [here](https://arlenecse.github.io/team2-wildfiresafety/)
 
 ## Files and Folders
 ### index.html
-This file contains all the HTML code used for the website
+This file contains all the HTML code that describes how the elements on our website are displayed
 ### index.js
-This file contains the javascript to make buttons
+This file contains the javascript code for the dark mode button and form handling
 ### reset.css
 This file contains a stylesheet that keeps the website formatting consistent
 ### script.js
@@ -24,15 +24,19 @@ This folder contains all the images that can be found on the website
 Arlene Garcia
 - Github: arlenecse
 - Email: arg030@ucsd.edu
+  
 Nicole Sutedja
 - Github: nicolesutedja
 - Email: nsutedja@ucsd.edu
+  
 Shourya Kulkarni
 - Github: Shourya-Kulkarni
 - Email: sdkulkarni@ucsd.edu
+  
 Yuvika Satapathy
 - Github: yuvikasatapathy
 - Email: ysatapathy@ucsd.edu
+  
 Harshini Kanakala
 - Github: Harshini118
 - Email: hkanakala@ucsd.edu
