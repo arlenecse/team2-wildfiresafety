@@ -3,7 +3,7 @@
 ## Project Description
 The purpose of our project is to provide resources for those affected by recent wildfires by directing them to the websites and supplying information on how to stay safe. Some key features of this website are that it is easily navigable and provides a clean list of all the resources and important information on one page. This website was designed to help those affected by wildfires find safety information and resources they urgently need.
 
-### Deploy Link
+## Deploy Link
 Try out the website [here](https://arlenecse.github.io/team2-wildfiresafety/)
 
 ## Files and Folders
