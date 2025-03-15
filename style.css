@@ -67,14 +67,14 @@ body {
 
 ***/
 h1, h2, h3, h4, p{
-  font-family: Arial, sans-serif;
+  font-family: Libre-Baskerville, sans-serif;
 }
 
 h1 {
 
   font-size: 32px; 
-  color: #000; 
-  background-color: #888888;
+  color: #000;  
+  /* background-color: #888888; */
    
 
 }
@@ -83,7 +83,7 @@ h1 {
 h2 {
 
    font-size: 28px; 
-   color: #444; 
+   color: #000; 
    text-align: center;
 
 }
@@ -92,7 +92,7 @@ h2 {
 h3 {
 
    font-size: 24px; 
-   color: #666;
+   color: #000;
 
 }
 
@@ -100,7 +100,7 @@ h3 {
 h4 {
 
    font-size: 20px;
-   color: #888;
+   color: #000;
 
 }
 
@@ -109,7 +109,7 @@ p {
 
    font-size: 16px; 
    line-height: 1.5; 
-   color: #333; 
+   color: #000; 
 
 }
 
@@ -139,7 +139,7 @@ button {
 
     /* Example Style, replace with your own! */
 
-    background-color: green;    /* button color */
+    background-color: #8a0000;    /* button color */
 
     color: white;               /* text color */
 
