@@ -349,7 +349,9 @@ body {
 .dark-mode h1, 
 .dark-mode h2, 
 .dark-mode h3,
-.dark-mode h4 {
+.dark-mode h4,
+.dark-mode p,
+.dark-mode li {
     color: white; /* Change heading colors to pink */
 }
 
