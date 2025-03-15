@@ -63,34 +63,34 @@ connectForm.addEventListener("submit", addParticipant);
 
 
 // Step 1: Select all elements with the class 'revealable'.
-let revealableContainers = TODO;
+let revealableContainers = document.querySelectorAll(".revealable");
 
 
 // Step 2: Write function to reveal elements when they are in view.
 const reveal = () => {
+    let windowHeight = window.innerHeight;
     for (let i = 0; i < revealableContainers.length; i++) {
         let current = revealableContainers[i];
 
 
         // Get current height of container and window
-        let windowHeight = TODO;
-        let topOfRevealableContainer = TODO;
+        let topOfRevealableContainer = current.getBoundingClientRect().top;
         let revealDistance = parseInt(getComputedStyle(current).getPropertyValue('--reveal-distance'), 10);
 
 
         // If the container is within range, add the 'active' class to reveal
         if (topOfRevealableContainer < windowHeight - revealDistance) {
-            TODO;
+            current.classList.add("active");
         }
         // If the container is not within range, hide it by removing the 'active' class
         else {
-            TODO;
+            current.classList.remove("active");
         }
     }
 }
 
 
 // Step 3: Whenever the user scrolls, check if any containers should be revealed
-window.addEventListener(TODO, TODO);
+window.addEventListener('scroll', reveal);
 
 /*** Success Modal [PLACEHOLDER] ***/
