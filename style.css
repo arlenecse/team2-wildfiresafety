@@ -66,7 +66,7 @@ body {
     paragraphs (p), links (a), and buttons
 
 ***/
-h1, h2, h3, h4, p{
+h1, h2, h3, h4, p, li{
   font-family: Tahoma, sans-serif;
 }
 
@@ -112,6 +112,15 @@ p {
    color: #000; 
 
 }
+
+li {
+
+   font-size: 16px; 
+   line-height: 1.5; 
+   color: #000; 
+
+}
+
 
 
 a:link {
@@ -339,7 +348,7 @@ body {
 /* Example: Different dark mode style for h1 */
 .dark-mode h1, 
 .dark-mode h2, 
-.dark-mode h3 
+.dark-mode h3,
 .dark-mode h4 {
     color: white; /* Change heading colors to pink */
 }
