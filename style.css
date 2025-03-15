@@ -66,15 +66,15 @@ body {
     paragraphs (p), links (a), and buttons
 
 ***/
-h1, h2, h3, h4, p{
-  font-family: Arial, sans-serif;
+h1, h2, h3, h4, p, li{
+  font-family: Tahoma, sans-serif;
 }
 
 h1 {
 
   font-size: 32px; 
-  color: #000; 
-  background-color: #888888;
+  color: #000;  
+  /* background-color: #888888; */
    
 
 }
@@ -83,7 +83,7 @@ h1 {
 h2 {
 
    font-size: 28px; 
-   color: #444; 
+   color: #000; 
    text-align: center;
 
 }
@@ -92,7 +92,7 @@ h2 {
 h3 {
 
    font-size: 24px; 
-   color: #666;
+   color: #000;
 
 }
 
@@ -100,7 +100,7 @@ h3 {
 h4 {
 
    font-size: 20px;
-   color: #888;
+   color: #000;
 
 }
 
@@ -109,9 +109,18 @@ p {
 
    font-size: 16px; 
    line-height: 1.5; 
-   color: #333; 
+   color: #000; 
 
 }
+
+li {
+
+   font-size: 16px; 
+   line-height: 1.5; 
+   color: #000; 
+
+}
+
 
 
 a:link {
@@ -139,7 +148,7 @@ button {
 
     /* Example Style, replace with your own! */
 
-    background-color: green;    /* button color */
+    background-color: #8a0000;    /* button color */
 
     color: white;               /* text color */
 
@@ -339,9 +348,9 @@ body {
 /* Example: Different dark mode style for h1 */
 .dark-mode h1, 
 .dark-mode h2, 
-.dark-mode h3 
-.dark-mode h4 
-.dark-mode p
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode p,
 .dark-mode li {
     color: white; /* Change heading colors to pink */
 }
