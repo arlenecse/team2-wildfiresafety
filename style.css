@@ -286,17 +286,17 @@ body {
 .revealable {
     --reveal-distance: 150px; /* CSS Variable */
  
-    scroll-margin-top: TODO;
-    opacity: TODO;
-    transition: TODO;
-    position: TODO;
-    transform: TODO;
+    scroll-margin-top: var(--reveal-distance);
+    opacity: 0;
+    transition: all 2s ease;
+    position: relative;
+    transform: translateY(var(--reveal-distance));
   }
  
   .active {
-    scroll-margin-top: TODO;
-    transform: translateY(TODO);
-    opacity: TODO;
+    scroll-margin-top: 0;
+    transform: translateY(0);
+    opacity: 1;
   }
 
 
