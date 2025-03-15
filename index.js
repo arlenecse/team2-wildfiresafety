@@ -53,5 +53,44 @@ connectForm.addEventListener("submit", addParticipant);
 
 
 /*** Form Validation [PLACEHOLDER] ***/
-/*** Animations [PLACEHOLDER] ***/
+
+
+/*** Animations ***/
+/*** Scroll Animations ***
+  Purpose:
+  - Use this starter code to add scroll animations to your website.
+***/
+
+
+// Step 1: Select all elements with the class 'revealable'.
+let revealableContainers = TODO;
+
+
+// Step 2: Write function to reveal elements when they are in view.
+const reveal = () => {
+    for (let i = 0; i < revealableContainers.length; i++) {
+        let current = revealableContainers[i];
+
+
+        // Get current height of container and window
+        let windowHeight = TODO;
+        let topOfRevealableContainer = TODO;
+        let revealDistance = parseInt(getComputedStyle(current).getPropertyValue('--reveal-distance'), 10);
+
+
+        // If the container is within range, add the 'active' class to reveal
+        if (topOfRevealableContainer < windowHeight - revealDistance) {
+            TODO;
+        }
+        // If the container is not within range, hide it by removing the 'active' class
+        else {
+            TODO;
+        }
+    }
+}
+
+
+// Step 3: Whenever the user scrolls, check if any containers should be revealed
+window.addEventListener(TODO, TODO);
+
 /*** Success Modal [PLACEHOLDER] ***/
